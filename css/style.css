@@ -4,67 +4,64 @@
     box-sizing: border-box;
 }
 
-main { 
+main {
     display: flex;
 }
 
 
-main > div {
-    background-color: rgb(34, 185, 255);
-    border-radius: 1em;
-    padding: 1em;
-    margin: 1em;
-    min-width: 16em;
-    display: grid;
-    justify-items: center;
-    text-align: center;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
+    main > div {
+        background-color: rgb(34, 185, 255);
+        border-radius: 1em;
+        padding: 1em;
+        margin: 1em;
+        min-width: 16em;
+        display: grid;
+        justify-items: center;
+        text-align: center;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
 
-main > div a {
-    display: block;
-    text-decoration: none;
-    background-color: white;
-    color: black;
-    padding: .2em;
-    margin: 1em;
-    border-radius: 1em;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-    width: 12em;
-}
+        main > div a {
+            display: block;
+            text-decoration: none;
+            background-color: white;
+            color: black;
+            padding: .2em;
+            margin: 1em;
+            border-radius: 1em;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+            width: 12em;
+        }
 
-main > div a:active {
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-}
+            main > div a:active {
+                box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+            }
 
 .people ul, .catagory ul {
-	margin: 1rem;
-	padding: 1rem;
+    margin: 1rem;
+    padding: 1rem;
     min-width: 12em;
     border-radius: 1em;
     box-shadow: rgb(94, 204, 255) 0px 4px 8px -2px, rgba(0, 109, 160, 0.623) 0px 0px 0px 1px;
     list-style: none;
 }
-.group h3 {
-    padding: 1em;
-    border-radius: 1em;
-    box-shadow: rgb(94, 204, 255) 0px 4px 8px -2px, rgba(0, 109, 160, 0.623) 0px 0px 0px 1px;
-}
-.group, .people, .catagory, .output {
+
+.assignment, .people, .catagory, .output {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.people ul li, .catagory ul li {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    border-radius: 1em;
-}
-.people ul li:hover, .catagory ul li:hover {
-    box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 15px;
-}
+    .people ul li, .catagory ul li {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        border-radius: 1em;
+    }
+
+        .people ul li:hover, .catagory ul li:hover {
+            box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 15px;
+        }
 
 main > div > ul > li > button {
     background-color: transparent;
@@ -88,7 +85,8 @@ main > div > ul > li > button {
     width: 100%;
     text-align: left;
     min-width: 12em;
-} 
+}
+
 .output ul li:hover {
     box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 15px;
-} 
+}
